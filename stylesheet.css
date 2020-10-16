@@ -1,0 +1,22 @@
+body{
+    height: 600px;
+  background-color: #cccccc;
+  background-image: linear-gradient(blue,rgb(94, 255, 0),rgba(140, 0, 255, 0.623));
+ }
+ #p1 {
+    font-style: oblique;
+    color:rgb(158, 235, 135)
+ }
+
+p{
+    font-style: oblique;
+    color:rgb(238, 0, 186)
+}
+ h1{
+     font-style: oblique;
+     color:white
+ }
+ h3{
+     font-style: oblique;
+    color:white
+ }
