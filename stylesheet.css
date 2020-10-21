@@ -10,7 +10,7 @@ body{
 
 p{
     font-style: oblique;
-    color:rgb(238, 0, 186)
+    color:rgb(4, 247, 255)
 }
  h1{
      font-style: oblique;
@@ -20,3 +20,31 @@ p{
      font-style: oblique;
     color:white
  }
+ ol{
+     font-style: oblique;
+    color:white
+ }
+ ul{
+     font-style: oblique;
+     color: white;
+ }
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: rgb(166, 255, 0);
+    color: rgb(0, 0, 0);
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }  
