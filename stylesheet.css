@@ -65,7 +65,7 @@ h2{
   }  
 .footer{
   text-align: center;
-  background-color: blue;
+  background-color:rgb(142, 142, 250);
   margin: auto;
-color: white;
+ padding: 10px;
 }
