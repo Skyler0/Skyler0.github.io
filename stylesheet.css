@@ -1,8 +1,7 @@
 body{
   height: 675px;
   margin: 0;
-  background-color: #cccccc;
-  background-image: linear-gradient(blue,rgb(94, 255, 0),purple);
+  background-color: blue
  }
  #p1 {
     font-style: oblique;
@@ -18,7 +17,7 @@ p{
  background-image: url(space.png);
  background-size: 100%;
   margin:auto;
-  padding: .5% 0;
+  padding: .25% 0;
   text-align: center;
   color: white;
   font-style: oblique;
@@ -64,3 +63,9 @@ h2{
     background-color: rgba(168, 255, 6, 0.527);
     color: white;
   }  
+.footer{
+  text-align: center;
+  background-color: blue;
+  margin: auto;
+color: white;
+}
