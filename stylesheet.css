@@ -1,7 +1,8 @@
 body{
-    height: 600px;
+  height: 675px;
+  margin: 0;
   background-color: #cccccc;
-  background-image: linear-gradient(blue,rgb(94, 255, 0),rgba(140, 0, 255, 0.623));
+  background-image: linear-gradient(blue,rgb(94, 255, 0),purple);
  }
  #p1 {
     font-style: oblique;
@@ -12,10 +13,22 @@ p{
     font-style: oblique;
     color:rgb(4, 247, 255)
 }
- h1{
-     font-style: oblique;
-     color:white
- }
+
+.title_bar{
+ background-image: url(space.png);
+ background-size: 100%;
+  margin:auto;
+  padding: .5% 0;
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}
+
+h2{
+  text-align: center;
+  font-style: oblique;
+  color: white;
+}
  h3{
      font-style: oblique;
     color:white
@@ -33,18 +46,21 @@ p{
     background-color:blue;
   }
   .topnav a {
+    display: block;
     float: left;
     color: #ffffff;
+    font-style: oblique;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   .topnav a:hover {
-    background-color: rgb(180, 252, 46);
-    color: rgb(0, 0, 0);
+    background-color: rgba(168, 255, 6, 0.527);
+    color: white;
+    transition: .25s;
   }
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgba(168, 255, 6, 0.527);
     color: white;
   }  
