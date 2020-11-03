@@ -7,6 +7,12 @@ body{
     font-style: oblique;
     color:rgb(158, 235, 135)
  }
+ img{
+   border-radius: 8px;
+ }
+table{
+  color: rgb(80, 167, 248);
+}
 
 p{
     font-style: oblique;
