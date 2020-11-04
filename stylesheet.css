@@ -1,20 +1,25 @@
 body{
   height: 675px;
   margin: 0;
-  background-color: blue
+  background-color: rgb(61, 105, 170);
  }
  #p1 {
     font-style: oblique;
     color:rgb(158, 235, 135)
  }
  img{
-   border-radius: 8px;
+  display: block;
+  width:50%;
+  min-width: 200px;
+  border-radius: 8px;
+  margin: auto;
  }
 table{
   color: rgb(80, 167, 248);
 }
 
 p{
+    font-size: 13pt;
     font-style: oblique;
     color:rgb(4, 247, 255)
 }
@@ -61,12 +66,12 @@ h2{
     font-size: 17px;
   }
   .topnav a:hover {
-    background-color: rgba(168, 255, 6, 0.527);
+    background-color: rgb(66, 66, 177);
     color: white;
     transition: .25s;
   }
   .topnav a.active {
-    background-color: rgba(168, 255, 6, 0.527);
+    background-color: rgb(129, 129, 248);
     color: white;
   }  
 .footer{
@@ -75,3 +80,26 @@ h2{
   margin: auto;
  padding: 10px;
 }
+.row{
+  display: flex;
+}
+.col40{
+  flex: 4;
+  padding: 0 20px;
+  margin:auto;
+}
+.col50{
+    flex: 5;
+    padding: 0 20px;
+    margin:auto;
+ }
+.col60{
+    flex: 6;
+    padding: 0 20px;
+    margin:auto;
+ }
+ .col100{
+    flex: 10;
+     padding: 0 20px;
+     margin:auto;
+ }
