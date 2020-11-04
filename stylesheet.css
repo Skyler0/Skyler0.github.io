@@ -1,7 +1,9 @@
+
+
 body{
   height: 675px;
   margin: 0;
-  background-color: rgb(61, 105, 170);
+  background-color: #3C99DC;
  }
  #p1 {
     font-style: oblique;
@@ -21,11 +23,11 @@ table{
 p{
     font-size: 13pt;
     font-style: oblique;
-    color:rgb(4, 247, 255)
+    color:#D5F3FE;
 }
 
 .title_bar{
- background-image: url(space.png);
+ background-image: url(blue.png);
  background-size: 100%;
   margin:auto;
   padding: .25% 0;
@@ -53,7 +55,7 @@ h2{
  }
  .topnav {
     overflow: hidden;
-    background-color:blue;
+    background-color:#243b7e;
   }
   .topnav a {
     display: block;
@@ -76,7 +78,7 @@ h2{
   }  
 .footer{
   text-align: center;
-  background-color:rgb(142, 142, 250);
+  background-color: #0F5298;
   margin: auto;
  padding: 10px;
 }
