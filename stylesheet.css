@@ -1,6 +1,6 @@
 
 
-body{
+body {
   height: 675px;
   margin: 0;
   background-color: #3C99DC;
@@ -16,17 +16,17 @@ body{
   border-radius: 8px;
   margin: auto;
  }
-table{
+table {
   color: rgb(80, 167, 248);
 }
 
-p{
+p {
     font-size: 13pt;
     font-style: oblique;
     color:#D5F3FE;
 }
 
-.title_bar{
+.title_bar {
  background-image: url(blue.png);
  background-size: 100%;
   margin:auto;
@@ -36,20 +36,20 @@ p{
   font-style: oblique;
 }
 
-h2{
+h2 {
   text-align: center;
   font-style: oblique;
   color: white;
 }
- h3{
+ h3 {
      font-style: oblique;
     color:white
  }
- ol{
+ ol { 
      font-style: oblique;
     color:white
  }
- ul{
+ ul {
      font-style: oblique;
      color: white;
  }
@@ -76,32 +76,40 @@ h2{
     background-color: rgb(129, 129, 248);
     color: white;
   }  
-.footer{
+.footer {
   text-align: center;
   background-color: #0F5298;
   margin: auto;
  padding: 10px;
 }
-.row{
+.row {
   display: flex;
 }
-.col40{
+.col40 {
   flex: 4;
   padding: 0 20px;
   margin:auto;
 }
-.col50{
+.col50 {
     flex: 5;
     padding: 0 20px;
     margin:auto;
  }
-.col60{
+.col60 {
     flex: 6;
     padding: 0 20px;
     margin:auto;
  }
- .col100{
+ .col100 {
     flex: 10;
      padding: 0 20px;
      margin:auto;
  }
+ ul { 
+  text-align: center;
+  list-style-position: inside;
+}
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
