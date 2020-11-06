@@ -1,14 +1,17 @@
 
 
+/*styles my body tag */
 body {
   height: 675px;
   margin: 0;
   background-color: #3C99DC;
  }
+ /*styles my paragraph id*/
  #p1 {
     font-style: oblique;
     color:rgb(158, 235, 135)
  }
+ /*stlyes all my images*/
  img{
   display: block;
   width:50%;
@@ -16,6 +19,7 @@ body {
   border-radius: 8px;
   margin: auto;
  }
+
 table {
   color: rgb(80, 167, 248);
 }
@@ -25,7 +29,7 @@ p {
     font-style: oblique;
     color:#D5F3FE;
 }
-
+/*  creats a div tag title bar and styles my titlebar*/
 .title_bar {
  background-image: url(blue.png);
  background-size: 100%;
@@ -53,10 +57,12 @@ h2 {
      font-style: oblique;
      color: white;
  }
+ /*  creats a div tag nav bar and styles my nav bar*/
  .topnav {
     overflow: hidden;
     background-color:#243b7e;
   }
+
   .topnav a {
     display: block;
     float: left;
@@ -76,15 +82,18 @@ h2 {
     background-color: rgb(129, 129, 248);
     color: white;
   }  
+  /* creates a div tag footer and styles footer*/
 .footer {
   text-align: center;
   background-color: #0F5298;
   margin: auto;
  padding: 10px;
 }
+/* creates rows for columns*/
 .row {
   display: flex;
 }
+
 .col40 {
   flex: 4;
   padding: 0 20px;
