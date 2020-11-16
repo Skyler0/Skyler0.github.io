@@ -94,8 +94,7 @@ h2 {
  background-color: #0F5298;
  margin: auto;
  padding: 10px;
-
-
+ height: 2.5rem;
 }
 /* creates rows for columns*/
 .row {
